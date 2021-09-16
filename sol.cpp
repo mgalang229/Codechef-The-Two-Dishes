@@ -19,7 +19,7 @@ int main() {
 			// let diff = t1, t2 = i
 			// diff = s - i
 			int diff = abs(s - i);
-			// find the maximum absolute difference
+			// find the maximum absolute difference (0 <= diff <= n)
 			if (diff >= 0 && diff <= n) {
 				mx = max(mx, abs(diff - i));
 			}
